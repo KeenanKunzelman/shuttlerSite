@@ -1,26 +1,18 @@
-import React from 'react';
+import React from "react";
 import "./Page1.css";
 
-const homeBackground=(props)=>{
+const homeBackground = props => {
+  return (
+    <div className="container">
+      <div className="containsTitle">
+        <h1>
+          <span className="title">Don't miss</span> the Shuttle ever again
+        </h1>
+      </div>
 
-return(
-<div class="container" >
-
-<div class="containsTitle">
-
-
-<h1><span class="title">Don't miss</span> the Shuttle ever again</h1>
-
-</div>
-
-<div className="mobileHomePage">
-
-
-</div>
-
-</div>
-)
-
+      <div className="mobileHomePage" />
+    </div>
+  );
 };
 
 export default homeBackground;
