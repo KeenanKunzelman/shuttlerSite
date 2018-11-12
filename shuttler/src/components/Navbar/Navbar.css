@@ -3,18 +3,19 @@
   width: 100%;
   top: 0;
   left: 0;
-  background: #f2014b;
+  background: white;
   height: 56px;
 }
 .navbar_navigation {
   display: flex;
   height: 100%;
   align-items: center;
+
   padding: 0 1rem;
 }
 
 .navbar_logo a {
-  color: white;
+  color: #f2014b;
   text-decoration: none;
   font-size: 1.5rem;
 }
@@ -32,17 +33,19 @@
 }
 
 .navbar_items a {
-  color: white;
+  color: #f2014b;
   text-decoration: none;
 }
 .navbar_items a:hover {
   color: rgb(255, 213, 213);
 }
+
 .spacer {
-  flex: 1;
+  flex: 0.5;
 }
-.navbar_logo {
-  margin-left: 0.5rem;
-}
-.navbar_items a:active {
+
+.navbar_logo img {
+  display: block;
+  width: 20%;
+  padding-left: 97px;
 }

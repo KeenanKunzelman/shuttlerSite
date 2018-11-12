@@ -11,19 +11,9 @@ const navbar = props => {
         <div>
           <DrawerToggleButton click={props.navClickHandler} />
         </div>
-        <div className="navbar_logo">
-          <a href="/">Shuttler</a>
-        </div>
         <div className="spacer" />
-        <div className="navbar_items">
-          <ul>
-            <li>
-              <a href="/">About</a>
-            </li>
-            <li>
-              <a href="/">Contact</a>
-            </li>
-          </ul>
+        <div className="navbar_logo">
+          <img src={require("./ic_logo.png")} alt="" />
         </div>
       </nav>
     </header>
