@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
+import Page1 from "./components/Page1HomeMobile/Page1";
 
 class App extends Component {
   state = {
@@ -31,7 +32,7 @@ class App extends Component {
         <SideDrawer show={this.state.SideDrawerOpen} />
         {backdrop}
         <main style={{ marginTop: "64px" }}>
-          {/* this is where your first component can be rendered */}
+          <Page1 />
         </main>
       </div>
     );
