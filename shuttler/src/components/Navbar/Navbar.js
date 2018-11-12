@@ -1,13 +1,18 @@
 import React from "react";
+
+import "../SideDrawer/DrawerToggleButton";
 import "./Navbar.css";
+import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 
 const navbar = props => {
   return (
     <header className="navbar">
       <nav className="navbar_navigation">
-        <div />
+        <div>
+          <DrawerToggleButton />
+        </div>
         <div className="navbar_logo">
-          <a href="/">The Logo</a>
+          <a href="/">Shuttler</a>
         </div>
         <div className="spacer" />
         <div className="navbar_items">

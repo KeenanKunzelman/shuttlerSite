@@ -18,6 +18,9 @@
   text-decoration: none;
   font-size: 1.5rem;
 }
+.navbar_logo a:hover {
+  color: rgb(255, 213, 213);
+}
 .navbar_items ul {
   list-style: none;
   margin: 0;
@@ -33,10 +36,13 @@
   text-decoration: none;
 }
 .navbar_items a:hover {
-  color: #058516;
+  color: rgb(255, 213, 213);
 }
 .spacer {
   flex: 1;
+}
+.navbar_logo {
+  margin-left: 0.5rem;
 }
 .navbar_items a:active {
 }
